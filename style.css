@@ -175,7 +175,7 @@ section .title::after{
     color: #330191;
     min-height: 500px;
     background-size: cover;
-    background-attachment: relative;
+    background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
