@@ -105,7 +105,7 @@ section .title::after{
     color:crimson;
     transition: all 0.3s ease;
     font-family: 'monotype corsiva';
-    color: #8B9D00;
+    color: #491B49;
     font-size: 45px;
    
 }
@@ -165,22 +165,17 @@ section .title::after{
 .scroll-up-btn:hover{
     filter: brightness(90%);
 }
-.image{
-    float: right;
-    margin-left: 90px;
- margin-top: -10px;
-    
-}
+
   
 /* home section styling */
 .home{
     display: flex;
-    background-color: #000000;
+    background-image: url('images/img2.JPG');
     height: 100vh;
-    color: #fff;
+    color: #330191;
     min-height: 500px;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: relative;
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
